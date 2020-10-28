@@ -1,0 +1,371 @@
+@font-face {
+    font-family: "Flamante-medium";
+    src: url('fontes/Flamante-SemiSlab-Medium-FFP2.ttf')
+}
+@font-face {
+    font-family: "Flamante-bold";
+    src: url('fontes/Flamante-SemiSlab-Bold-FFP.ttf');
+}
+
+html, body {
+    height: 100%;
+}
+.principal {
+    background-image: url("imagens/Imagens de Fundo/imagem6.jpg");
+    margin: 0;
+}
+
+.dc{
+    background-size: 100vw;
+    margin: 0;
+}
+
+.dca{
+    margin: 0px;
+}
+
+.menu a {
+    font-family: 'Flamante-medium';
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    line-height: 35px;
+    color: white;
+    padding-right: 20px;
+    float: right;
+    text-decoration: none;
+    height: 30px;
+    border-left: solid #32bca8;
+    border-left-width: 1px;
+    padding-left: 10px;
+}
+.menu a:last-child {
+    border: none;
+}
+.menu a:hover {
+    color: #142e2a;
+}
+header {
+    background-color: #57978f;
+    color: white;
+}
+
+#imagem {
+    width: 100vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: .6;
+    }
+
+.slogan, .desc{
+    font-family: 'Flamante-medium';
+    color: white;
+    background-color: #57978f41;
+    margin: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 30px;
+    text-align: center;
+    width: 40%;
+    /*
+    margin-top: -1200px;
+    */
+    border-radius: 20px;
+    border-style: dashed;
+}
+.teste {
+    font-family: 'Flamante-bold';
+    height: 100px;
+    width: 200px;
+    font-size: 20px;
+    background-color: cyan;
+    text-decoration: none;
+    color: white;
+    display: block;
+    line-height: 100px;
+    text-align: center;
+}
+.teste:hover {
+    background-color: rgba(25, 85, 85, 0.733);
+    color: rgb(146, 146, 146);
+}
+
+
+.logo{
+    padding-left: 5px;
+    display: block;
+}
+
+.desc{
+    border: none;
+    /*
+    margin-top: -850px;
+    */
+    text-align: center;
+    padding: 35px;
+}
+
+#dis {
+    display: block;
+    float: right;
+    opacity: .9;
+    margin: 2%;
+    margin-top: 0;
+    padding-top: 0;
+    display: block;
+    width: 40vw;
+    border-left: solid #32bca8;
+    border-left-width: 1px;
+    padding-left: 70px;
+}
+
+#docentes {
+    margin: 0;
+    padding: 0;
+}
+
+.prof{
+    color:  #57978f;
+    background-color:  #c8e6e2;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Flamante-medium';
+    display: block;
+}
+
+.professores{
+    width: 35vw;
+    padding: 20px;
+    border: none;
+    border-left: dashed #57978f;
+    border-right: dashed #57978f;
+    border-width: 1px;
+}
+
+.pr {
+    text-align: center;
+    display: block;
+}
+
+.sub{
+    color: #57978f;
+    font-family: 'Flamante-medium';
+    display: block;
+    font-size: 30px;
+    padding-top: 0px;
+    display: block;
+}
+
+.sub1{
+    color: #57978f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: block;
+    font-size: 30px;
+    padding-top: 0px;
+    display: block;
+}
+
+.hd{
+    font-family: 'Flamante-medium';
+    color: white;
+}
+
+.corp2i2{
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #436965;
+    width: 45%;
+    text-align: justify;
+    padding-top: 70px;
+    height: 500px;
+    border-right: solid #32bca8;
+    border-right-width: 1px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    display: block;
+} 
+
+.corp2i{
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #436965;
+    width: 45%;
+    text-align: justify;
+    padding-top: 35px;
+    height: 500px;
+    border-left: solid #32bca8;
+    border-left-width: 1px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    display: block;
+} 
+
+
+ .corp2{
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #436965;
+    width: 45%;
+    text-align: justify;
+    height:350px;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border-right: solid #32bca8;
+    border-right-width: 1px;
+    display: block;
+} 
+
+.corp2P{
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #436965;
+    width: 45%;
+    text-align: justify;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border-right: solid #32bca8;
+    border-right-width: 1px;
+    display: block;
+} 
+
+.corp2T{
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #436965;
+    width: 45%;
+    text-align: justify;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    display: block;
+} 
+
+.demo{
+
+    border: solid #32bca8;
+    border-width: 3px;
+    width: 50vw;
+
+}
+
+.cen{
+    text-align: center;
+}
+
+
+.imagens, #imagem3{
+    width: 45vw;
+    border: dashed #57978f 1px;
+}
+
+
+
+
+.textos{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+#imagem3 {
+    width: 20vw;
+    clear: both;
+    float: right;
+}
+
+
+
+
+
+.fala::before {
+    content: '“';
+    font-size: 8em;
+    color: whitesmoke;
+    line-height: 0.7;
+    height: 1em;
+    left: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    float: left;
+}
+
+.dep {
+    width: 29%;
+    background-color: #57978fd5;
+    color: whitesmoke;
+    margin: .5%;
+    padding: 1.5% 1.5% 1% 1.5%;
+    display: inline-table;
+    height: 100vh;
+    border-radius: 5%;
+    text-align: center;
+}
+
+.fala {
+    text-align: justify;
+    margin-left: 3px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.autor {
+    text-align: right;
+    color: rgba(25, 85, 85, 0.733);
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+.dep img {
+    width: 70%;
+    border-radius: 5%;
+    
+}
+
+.dep:hover {
+    background-color: #416965d5;
+}
+
+.social {
+    width: 20%;
+    left: 0;
+}
+.social li {
+    display: inline;
+}
+
+.contatos-pai {
+    width: 20%;
+    float: right;
+    padding-right: 20px;
+}
+.contatos {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+
+footer {
+    width: 100%;
+    display: inline-block;
+}
+
+footer, footer a {
+    margin-top: 100vh;
+    padding: 10px;
+    background-color: #57978f;
+    color: white;
+    bottom: 0;
+    text-decoration: none;
+    text-align: center;
+}
